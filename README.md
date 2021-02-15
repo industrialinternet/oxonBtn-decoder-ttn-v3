@@ -1,5 +1,5 @@
 # oxonBtn-decoder-ttn-v3
-
+```
 function decodeUplink(input) {
   var  data = {};
   data.rawPL = input.bytes;
@@ -60,3 +60,4 @@ function buttonboardStateUpdate(bytes,data) {
   };
   Object.assign(data,decoded);
 }
+```
